@@ -10,6 +10,7 @@ def get_num_list(file_name):
     return num_list
 
 
+# I made a funct for getting average number with numpy lib. It also may be done with average_num=sum(num)/len(num)
 def count_average(num):
     # print(numpy.mean(num))
     return numpy.mean(num)
